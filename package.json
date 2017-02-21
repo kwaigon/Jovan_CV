@@ -1,0 +1,21 @@
+{
+  "name": "Jovan_CV",
+  "version": "1.0.0",
+  "description": "Jovan test CV playground",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ninoslav",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7"
+  }
+}
