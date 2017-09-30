@@ -17,8 +17,143 @@
 
 //..
 
+@font-face {
+  font-family: 'Varela Round', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Varela+Round');
+}
+
+.header {
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  display:block;
+  background-color: #090645;
+  color: #fff;
+}
+nav {
+  width: 75%;
+  margin-left: 20%;
+  display: block;
+
+}
+
+
+nav ul li {
+  font-size: 20px;
+  width: 20%;
+  padding: 10px;
+
+}
+
+h1,h2,h3,p {
+  margin: auto;
+  display: block;
+
+
+}
 .wrepper {
   width: 75%;
   margin: auto;
   display: block;
 }
+#ab {
+  padding:100px 30px 100px 30px;
+
+  border-radius: 15px;
+  background-color: #090645;
+  color: #fff;
+
+}
+
+#ts {
+  padding:100px 30px 100px 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #090645;
+}
+
+#pe {
+ padding:100px 30px 100px 30px;
+  border-radius: 15px;
+  background-color: #090645;
+  color: #fff;
+}
+
+#ed {
+  padding:100px 30px 100px 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #090645;
+}
+
+#cn {
+
+  margin-bottom: 30px;
+  padding:100px 30px 100px 30px;
+  border-radius: 15px;
+  background-color: #090645;
+  color: #fff;
+}
+
+#img {
+  margin-left: 13%;
+  margin-top: 1.5%;
+  width: 25%;
+  border-radius: 70px;
+}
+
+#head {
+  float: right;
+  margin-right: 22%;
+  margin-top: 10%;
+}
+
+h1,h2,h4,p {
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+h4 {
+  font-size: 22px;
+  padding: 20px;
+  font-family: 'Varela Round', sans-serif;
+
+h2 {
+  font-size: 25px;
+  padding:20px 20px 20px 0px;
+}
+
+.box {
+  width: 40%;
+  color: #090645;
+}
+
+.box1 {
+  width: 60%;
+  height: 90px;
+  color: #090645;
+
+}
+
+.txt {
+  color: #090645;
+}
+
+#pe li {
+  padding: 10px;
+}
+
+#ab li {
+  padding: 10px;
+}
+
+
+#ts li {
+  padding: 10px;
+}
+
+
+#ed li {
+  padding: 10px;
+}
+
