@@ -1,0 +1,259 @@
+
+
+body {
+  background: linear-gradient(90deg, #3f3f3f, #303030,#303030,#303030,#303030,#303030,#303030,#303030,#303030,#303030,#303030,#303030, #3f3f3f);
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+
+}
+h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+.mid {
+  background-color: #fff;
+}
+.bot {
+  background-color: #fff;
+}
+
+.header {
+  height: 280px;
+  margin-top: 0px;
+  background-image: url("../images/header.jpg");
+  border-bottom: 10px solid #db6fb7;
+  color: #fff;
+}
+
+.jovan {
+  float: left;
+  margin-right: 3.5%;
+  width: 33%;
+  height:33%;
+  display: block;
+  border: 10px solid #db6fb7;
+  border-radius: 110px;
+
+}
+.pad {
+  padding: 40px 40px 40px 7%;
+  width: 65%;
+}
+
+
+
+
+.info {
+  float: right;
+  width: 35%;
+  padding-top:40px;
+
+
+}
+
+.info p {
+  padding-bottom: 20px;
+}
+
+#slika {
+  float:right;
+  width: 200px;
+  height:200px;
+
+}
+
+.sec1 {
+  padding: 40px 7% 80px 7%;
+
+}
+
+#break {
+  height: 2px;
+  width: 85%;
+  margin-left: 7%;
+  margin-right: 8%;
+  background-color: #d8d6d6;
+}
+
+.sec2 {
+  padding: 40px 7% 40px 7%;
+
+}
+.left {
+  float: left;
+  margin-right: 3.5%;
+
+}
+.sec3 {
+  width: 75%;
+  padding: 10px 0px 10px 0px;
+}
+
+#p {
+  margin-left: 19%;
+}
+
+.work {
+  width: 100%;
+  height: 100px;
+  background-color: #303030;
+  color: #fff;
+  text-align: center;
+}
+#work {
+  padding-top: 30px;
+}
+
+#one {
+  padding: 40px 7% 80px 7%;
+  width: 60%;
+}
+.sec4 {
+width: 45%;
+
+
+}
+.sec5 {
+  width: 45%;
+  float: right;
+
+}
+.two {
+  width: 35%;
+  float: right;
+  padding: 40px 7% 40px 0;
+
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #d8d6d6;
+}
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+.footerlink p {
+  float: right;
+  inline: block;
+  margin-right: 7%;
+  margin-top: 25px;
+}
+
+#footer {
+  margin-left: 7%;
+  padding-top: 25px;
+}
+
+.work2 {
+  background-image: url("../images/background.jpg");
+  width: 100%;
+  height: 250px;
+}
+
+.imglist {
+  width: 13%;
+}
+ul {
+  padding-top: 5%;
+}
+ul li {
+  display: inline;
+  margin-left: 5%;
+
+}
+
+
+@media screen  and (max-width: 979px)  {
+   h1{
+    font-size: 35px;
+     padding-top: 15px;
+  }
+  h2 {
+    font-size:25px;
+  }
+  p {
+  font-size: 15px;
+  line-height: 20px;
+  }
+  .imglist {
+  width: 15%;
+}
+
+
+
+}
+
+@media screen and (max-width: 500px)  {
+
+  h1{
+    font-size: 30px;
+     padding-top: 12px;
+  }
+  h2 {
+    font-size:22px;
+  }
+  p {
+  font-size: 12px;
+  line-height: 15px;
+  }
+  .work2 {
+  background-image: url("../images/background.jpg");
+  width: 100%;
+  height: 400px;
+}
+  .jovan {
+
+  margin-right: 3.5%;
+  width: 70%;
+    height:70%;
+  }
+  #slika {
+
+  width: 100px;
+  height:100px;
+
+}
+   .imglist {
+  width: 30%;
+}
+#one {
+  padding: 40px 7% 80px 7%;
+  width: 100%;
+}
+  .two {
+  width: 100%;
+
+  padding: 40px 7% 40px 7%;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+
+     .imglist {
+  width: 40%;
+}
+  .footerlink p {
+
+  margin-right: 7%;
+  margin-top: 25px;
+}
+
+}
