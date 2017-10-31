@@ -70,7 +70,16 @@ h5 {
   float:right;
   width: 200px;
   height:200px;
+  background-color: #e800d8;
+  border-radius: 100px;
 
+}
+
+#slika p {
+  margin-top: 88px;
+  color: #fff;
+  font-size: 280px;
+  text-align: center;
 }
 
 .sec1 {
@@ -164,17 +173,36 @@ a {
   height: 250px;
 }
 
-.imglist {
-  width: 13%;
-}
+
 ul {
-  padding-top: 5%;
+  padding-top: 3%;
 }
 ul li {
-  display: inline;
+  display: inline block;
   margin-left: 5%;
 
 }
+.graph {
+  height: 140px;
+  width: 13%;
+  border: 7px solid #e800d8;
+  border-radius: 100px;
+
+}
+.graph p {
+
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.year {
+  font-size: 15px;
+  color: #fff;
+  margin-left: 3%;
+}
+
 
 
 @media screen  and (max-width: 979px)  {
@@ -223,11 +251,16 @@ ul li {
   }
   #slika {
 
-  width: 100px;
-  height:100px;
+  width: 150px;
+  height:150px;
 
 }
-   .imglist {
+  #slika p {
+  margin-top: 68px;
+  font-size: 220px;
+
+}
+   .graph {
   width: 30%;
 }
 #one {
@@ -254,6 +287,17 @@ ul li {
 
   margin-right: 7%;
   margin-top: 25px;
+}
+   #slika {
+
+  width: 100px;
+  height:100px;
+
+}
+   #slika p {
+  margin-top: 42px;
+  font-size: 150px;
+
 }
 
 }

@@ -1,5 +1,3 @@
-
-
 body {
   background: linear-gradient(90deg, #3f3f3f, #303030,#303030,#303030,#303030,#303030,#303030,#303030,#303030,#303030,#303030,#303030, #3f3f3f);
 }
@@ -70,7 +68,16 @@ h5 {
   float:right;
   width: 200px;
   height:200px;
+  background-color: #e800d8;
+  border-radius: 100px;
 
+}
+
+#slika p {
+  margin-top: 88px;
+  color: #fff;
+  font-size: 280px;
+  text-align: center;
 }
 
 .sec1 {
@@ -223,8 +230,13 @@ ul li {
   }
   #slika {
 
-  width: 100px;
-  height:100px;
+  width: 150px;
+  height:150px;
+
+}
+  #slika p {
+  margin-top: 68px;
+  font-size: 220px;
 
 }
    .imglist {
@@ -254,6 +266,17 @@ ul li {
 
   margin-right: 7%;
   margin-top: 25px;
+}
+   #slika {
+
+  width: 100px;
+  height:100px;
+
+}
+   #slika p {
+  margin-top: 42px;
+  font-size: 150px;
+
 }
 
 }
